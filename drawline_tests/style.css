@@ -1,0 +1,53 @@
+html,
+body {
+  padding: 5;
+  margin: 5;
+  width: 100%;
+}
+
+canvas{position: absolute; z-index: 1;}
+
+#gameCanvas{
+  position: fixed;
+	width: 100%;
+	background-image:url('images/graph.png');
+	background-repeat: no-repeat;
+  background-size: 30%;
+  /*background-position: 25% 10%;*/
+  background-position: fixed;
+  z-index: 1;
+}
+
+#dragdrop{
+  position: relative;
+  z-index: 2;
+  margin-top: 20%;
+}
+
+#ball{
+  float: right;
+  margin-right: 60%;
+
+}
+
+#clear{
+	border-color: 0, 0, 0;
+}
+
+#graph{
+	width: 50%;
+	height: 50%;
+}
+
+#gate {
+  cursor: pointer;
+  margin-bottom: 100px;
+  width: 83px;
+  height: 46px;
+}
+
+#ball {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}

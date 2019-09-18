@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>draw test</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body onload="_init()">
+
+
+
+	<div>
+        <button id="clear" style="font-size:24px"> Redo <i class="fa fa-repeat"></i></button>
+  </div>
+  
+  <canvas id="gameCanvas"></canvas>
+
+  <div id="dragdrop">
+    <img src="images/target1.svg" id="gate" class="droppable">
+    <img src="images/drag1.png" id="drop1">
+  </div>
+	
+
+
+
+
+  <script src='https://code.createjs.com/easeljs-0.8.1.min.js'></script>
+  <script src="./script.js"></script>
+  <script src="bootbox/bootbox.min.js"></script>
+  <script src="bootbox/bootbox.locales.min.js"></script>
+
+</body>
+</html>
